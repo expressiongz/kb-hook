@@ -16,7 +16,7 @@ int main() {
     MSG msg;
     while(!GetMessage(&msg, 0, 0, 0)) {
         TranslateMessage(&msg); 
-        DispatchMessage(&msg);d
+        DispatchMessage(&msg);
     }
     UnhookWindowsHookEx(hook);
     return 0;
